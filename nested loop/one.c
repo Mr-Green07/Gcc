@@ -1,17 +1,13 @@
 #include <stdio.h>
-
 int main() {
-    int p;
-  for (int i = 0; i < 5; i++) {
-    for (int j = p; j< 5; j++){
-        printf(" ");
-    }
-    for (int j = i; j < 5; j++) {
-      printf("*");
-    }
-    printf("\n");
-    p = p + 1;
-  } 
+  int n, i;
+  printf("Aadityavarrdhan Jay Singh \n");
+  printf("UID-23BSC13529 \n");
+  printf("Enter an integer: ");
+  scanf("%d", &n);
 
-  return 0;
+  for (i=1; i<=10; i++){
+   printf("%d\n",n*i);
+  }
+ return 0;
 }
