@@ -2,7 +2,8 @@
 
 int main() {
     int roll_numbers[35];
-    
+    printf("yuvraj singh");
+
     for (int i = 0; i < 35; i++) {
         printf("Enter roll number for student %d: ", i+1);
         scanf("%d", &roll_numbers[i]);
